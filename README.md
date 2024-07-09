@@ -48,7 +48,7 @@ Using webhooks ensures that Jenkins listens for events (like code pushes) from y
 2. **Add a new webhook** with the following details:
    - **Payload URL**: `http://your-jenkins-server-url/github-webhook/`
    - **Content type**: `application/json`
-   - **Events**: Choose `Just the push event`.
+   - **Events**: Choose `Pull and push event`.
 
 ### In Jenkins
 
